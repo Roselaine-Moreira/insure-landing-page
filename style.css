@@ -17,6 +17,10 @@ li{
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Versão mobile 375px */
 #navbar{
   width: 100%;
@@ -79,7 +83,6 @@ position: relative;
 
 .button{
   margin-top: 50px;
-  text-decoration: none;
   border: 2px solid #fff;
   color: #fff;
   text-transform: uppercase;
@@ -198,14 +201,12 @@ margin-top: 40px;
 }
 
 .footer__card a{
-  text-decoration: none;
   color: hsl(270, 9%, 17%);
   font-weight: bold;
 }
 
 .attribution{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px;
   text-align: center;
   font-size: 10px;
   font-weight: bold;
@@ -213,5 +214,5 @@ margin-top: 40px;
 }
 
 .attribution a{
-  text-decoration: none;
+  color: hsl(270, 9%, 17%);
 }
